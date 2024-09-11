@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <center><h1 style="background-color:cornsilk;">SIGN UP PAGE</h1></center>
+</head>
+<body bgcolor=" lightblue">
+    <form>
+        <label for="fname"><b>Firstname:</b></label>
+        <input type="text" name="fname" id="fname" placeholder="eg:john" />
+        <label for="lname"><b>Lastname:</b></label>
+        <input
+          type="text"
+          name="lname"
+          id="lname"
+          placeholder="surname"
+        /><br /><br />
+        <label for="mail"><b>Mail-ID:</b></label>
+        <input
+          type="mail"
+          name="mail"
+          id="mail"
+          placeholder="abc@gmail.com"
+          required
+        /><br /><br />
+        <label for="mobile"><b>Mobile:</b></label>
+        <input
+          type="tel"
+          name="mobile"
+          id="mobile"
+          pattern="[0-9]{10}"
+          placeholder="1234567890"
+          required><br><br>
+          <label for="date"><b>DOB:</b></label>
+      <input type="date" name="date" id="date" /><br /><br />
+      <label><b>Gender</b></label
+        ><br /><br />
+        <input type="radio" name="Gender" value="Male" />Male
+        <input type="radio" name="Gender" value="Female" />Female<br /><br />
+        <label for="pan"><b>PAN:</b></label>
+        <input type="text" name="pan" id="pan" pattern="[A-Z]{5}[0-9]{4}[A-Z]{1}"><br><br>
+        <label for="fname"><b>Username:</b></label>
+      <input type="text" name="fname" id="fname" /><br /><br />
+      <label for="lname"><b>Password:</b></label>
+      <input type="text" name="lname" id="lname" ><br><br>
+      <input type="submit" value="Register" formaction="./index.html">
+
+    </form>
+</body>
+</html>
